@@ -1,4 +1,9 @@
 #!/usr/bin/env ruby
+<<<<<<< HEAD
 require_relative '../config/boot'
 require 'rake'
+=======
+require_relative "../config/boot"
+require "rake"
+>>>>>>> add_home
 Rake.application.run
