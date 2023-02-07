@@ -2,11 +2,7 @@
 #   gem install sqlite3
 #
 #   Ensure the SQLite 3 gem is defined in your Gemfile
-<<<<<<< HEAD
-#   gem 'sqlite3'
-=======
 #   gem "sqlite3"
->>>>>>> add_home
 #
 default: &default
   adapter: sqlite3

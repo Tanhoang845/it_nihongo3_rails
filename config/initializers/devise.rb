@@ -16,12 +16,9 @@ Devise.setup do |config|
   # by default. You can change it below and use your own secret key.
   # config.secret_key = '1c1c3a97b5cf2d7f19b23c33b507d0de84c3b402bb54428debfb5278958e9c932d014bf364f2b4566425878b4630b81834d6f8d057eaaea4fac6006fd2cb0150'
 
-<<<<<<< HEAD
   # NEW 
   config.scoped_views = true
   config.sign_out_via = Rails.env.test? ? :get : :delete
-=======
->>>>>>> Add login Fix
   # ==> Controller configuration
   # Configure the parent class to the devise controllers.
   # config.parent_controller = 'DeviseController'
