@@ -19,6 +19,7 @@ Devise.setup do |config|
   # NEW 
   config.scoped_views = true
   config.sign_out_via = Rails.env.test? ? :get : :delete
+  config.navigational_formats = ['*/*', :html, :turbo_stream]
   # ==> Controller configuration
   # Configure the parent class to the devise controllers.
   # config.parent_controller = 'DeviseController'
